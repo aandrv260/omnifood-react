@@ -1,0 +1,106 @@
+.footer {
+  padding: 12.8rem 6.4rem;
+  border-top: 1px dotted #76767688;
+
+  &--grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1.5fr) repeat(3, 1fr);
+    gap: 4.8rem;
+  }
+}
+
+.logo-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo {
+  display: block;
+  height: 2.4rem;
+  width: auto;
+  margin-bottom: 3.2rem;
+}
+
+.social-links {
+  display: flex;
+  gap: 1.2rem;
+  margin-bottom: 3.2rem;
+}
+
+.social-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+  color: #767676;
+  transition: all 0.3s;
+
+  ion-icon {
+    width: 100%;
+    height: 100%;
+  }
+
+  &:hover {
+    color: #555;
+  }
+}
+
+.copyright {
+  display: inline-block;
+  font-size: 1.6rem;
+  color: #767676;
+  margin-top: auto;
+  line-height: 1.6;
+}
+
+.footer-heading {
+  color: #666;
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 3.2rem;
+}
+
+.address {
+  color: #767676;
+}
+
+.address-p {
+  font-size: 1.6rem;
+  font-style: normal;
+  margin-bottom: 2.4rem;
+  line-height: 1.6;
+}
+
+.contacts a {
+  &:link,
+  &:visited {
+    display: block;
+    color: inherit;
+    font-size: 1.6rem;
+    color: #767676;
+    transition: all 0.3s;
+  }
+
+  &:hover,
+  &:active {
+    color: #555;
+  }
+}
+
+.footer-link a {
+  &:link,
+  &:visited {
+    transition: all 0.3s;
+    color: #767676;
+    font-size: 1.6rem;
+  }
+
+  &:hover,
+  &:active {
+    color: #555;
+  }
+}
+
+.footer-nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
