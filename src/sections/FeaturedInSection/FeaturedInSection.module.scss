@@ -1,0 +1,25 @@
+.featured-in {
+  padding: 3.2rem 4.8rem;
+}
+
+.heading-featured-in {
+  font-size: 1.4rem;
+  color: #777;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 3.2rem;
+}
+
+.companies-feautured {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1.6rem;
+}
+
+.featured-logo {
+  height: 3.2rem;
+  width: auto;
+  filter: brightness(0);
+  opacity: 50%;
+}

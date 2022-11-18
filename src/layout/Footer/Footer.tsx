@@ -18,6 +18,7 @@ const Footer = () => {
   const [curYear, setCurYear] = useState<number>(2022);
 
   // Set the year at the copyright text programatically
+  // only the first time after the component is rendered
   useEffect(() => {
     const year = new Date().getFullYear();
 
@@ -49,6 +50,7 @@ const Footer = () => {
 
           <SocialIcons />
 
+          {/* Copyright */}
           <p className={styles['copyright']}>
             Copyright © <span className={styles['year']}>{curYear}</span> by Omnifood, Inc. All
             rights reserved.
