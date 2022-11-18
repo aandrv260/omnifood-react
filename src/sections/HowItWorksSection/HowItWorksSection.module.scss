@@ -1,0 +1,61 @@
+.section-how-it-works {
+  padding: 8rem 0;
+}
+
+.subheading {
+  display: inline-block;
+  text-transform: uppercase;
+  color: #e67e22;
+  font-weight: 500;
+  font-size: 1.6rem;
+  margin-bottom: 2.4rem;
+}
+
+.step-num {
+  display: inline-block;
+  color: #ddd;
+  font-size: 7.4rem;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+}
+
+.step-description {
+  font-size: 1.8rem;
+  color: #666;
+  line-height: 1.75;
+}
+
+.step-img {
+  width: 35%;
+}
+
+.img-col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  &::before,
+  &::after {
+    content: '';
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -3;
+  }
+
+  &::before {
+    width: 60%;
+    padding-bottom: 60%;
+    background-color: #fdf2e9;
+  }
+
+  &::after {
+    width: 45%;
+    padding-bottom: 45%;
+    background-color: #fae5d3;
+  }
+}

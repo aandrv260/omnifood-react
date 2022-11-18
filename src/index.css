@@ -97,3 +97,12 @@ strong {
   color: #333;
   margin-bottom: 3.2rem;
 }
+
+.subheading {
+  display: inline-block;
+  text-transform: uppercase;
+  color: #e67e22;
+  font-weight: 500;
+  font-size: 1.6rem;
+  margin-bottom: 2.4rem;
+}
