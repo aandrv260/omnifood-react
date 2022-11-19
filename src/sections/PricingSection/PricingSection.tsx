@@ -1,6 +1,8 @@
 import Container from '../../components/Container/Container';
+import Features from '../../components/Features/Features';
 import PricingPlan from '../../components/PricingPlan/PricingPlan';
 import SectionHeading from '../../components/SectionHeading/SectionHeading';
+import FeaturesData from '../../models/features';
 import PricingPlanData from '../../models/pricingPlanData';
 import styles from './PricingSection.module.scss';
 
@@ -28,6 +30,32 @@ const pricingPlansData: PricingPlanData[] = [
   },
 ];
 
+const featuresData: FeaturesData[] = [
+  {
+    iconName: 'infinite-outline',
+    heading: 'Never cook again!',
+    description: 'Our subscriptions cover 365 days per year, even including major holidays.',
+  },
+
+  {
+    iconName: 'nutrition-outline',
+    heading: 'Local and organic',
+    description: 'Our cooks only use local, fresh, and organic products to prepare your meals.',
+  },
+
+  {
+    iconName: 'leaf-outline',
+    heading: 'No waste',
+    description: 'All our partners only use reusable containers to package all your meals',
+  },
+
+  {
+    iconName: 'pause-outline',
+    heading: 'Pause anytime',
+    description: 'Going on vacation? Just pause your subscription, and we refund unused days.',
+  },
+];
+
 const PricingSection = () => {
   return (
     <section className={styles['section-pricing']}>
@@ -44,6 +72,13 @@ const PricingSection = () => {
           />
         ))}
       </Container>
+
+      <p className={styles['addit-text']}>
+        Prices include all applicable taxes. You can cancel at any time. Both plans include the
+        following:
+      </p>
+
+      <Features data={featuresData} />
     </section>
   );
 };
