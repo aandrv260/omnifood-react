@@ -1,0 +1,21 @@
+.section-meals {
+  padding: 8rem 0;
+}
+
+.btn--all-recipes:link,
+.btn--all-recipes:visited {
+  display: inline-block;
+  color: #e67e22;
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-top: 4.8rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid currentColor;
+
+  transition: all 0.3s;
+}
+
+.btn--all-recipes:hover,
+.btn--all-recipes:active {
+  border-bottom: 1px solid transparent;
+}

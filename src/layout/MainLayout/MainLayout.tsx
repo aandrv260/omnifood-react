@@ -1,6 +1,7 @@
 import FeaturedInSection from '../../sections/FeaturedInSection/FeaturedInSection';
 import HeroSection from '../../sections/Hero/HeroSection';
 import HowItWorksSection from '../../sections/HowItWorksSection/HowItWorksSection';
+import SectionMeals from '../../sections/SectionMeals/SectionMeals';
 
 const MainLayout = () => {
   return (
@@ -8,6 +9,7 @@ const MainLayout = () => {
       <HeroSection />
       <FeaturedInSection />
       <HowItWorksSection />
+      <SectionMeals />
     </main>
   );
 };
