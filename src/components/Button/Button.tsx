@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Button.module.scss';
+import './Button.scss';
 
 type ButtonProps = {
   url?: string;
@@ -10,8 +10,7 @@ type ButtonProps = {
 
 const Button: React.FC<ButtonProps> = props => {
   const { url, children, btnStyle, id } = props;
-  const btnStyleClassName = `${styles[`btn--${btnStyle}`]}`;
-  const btnClassName = `${styles.btn} ${btnStyleClassName}`;
+  const btnClassName = `btn btn--${btnStyle}`;
 
   return (
     <a className={btnClassName} href={url} id={id}>

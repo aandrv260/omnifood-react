@@ -9,6 +9,7 @@ import customer3Img from '../../assets/images/customers/customer-3.jpg';
 import customer4Img from '../../assets/images/customers/customer-4.jpg';
 import customer5Img from '../../assets/images/customers/customer-5.jpg';
 import customer6Img from '../../assets/images/customers/customer-6.jpg';
+import ScrollLink from '../../components/ScrollLink/ScrollLink';
 
 const HeroSection = () => {
   return (
@@ -25,13 +26,21 @@ const HeroSection = () => {
           </p>
 
           <div className={styles['btns']}>
-            <Button url="#" btnStyle="full">
+            <ScrollLink className="btn btn--full" to="#section-cta" title="Main button">
+              Start eating well
+            </ScrollLink>
+
+            <ScrollLink className="btn btn--outline" to="#section-how">
+              Learn more &darr;
+            </ScrollLink>
+            {/* <ScrollLink */}
+            {/* <Button url="#" btnStyle="full">
               Start eating well
             </Button>
 
             <Button url="#" btnStyle="outline" id="learn-more">
               Learn more &darr;
-            </Button>
+            </Button> */}
           </div>
 
           <div className={styles.delivered}>

@@ -6,7 +6,9 @@ type SectionHeadingProps = {
 
 const SectionHeading: React.FC<SectionHeadingProps> = ({ subheading, heading, textAlign }) => {
   return (
-    <div className={`container${textAlign === 'center' ? ` ${textAlign}-text` : ''}`}>
+    <div
+      className={`container heading-container${textAlign === 'center' ? ` ${textAlign}-text` : ''}`}
+    >
       {subheading && <span className="subheading">{subheading}</span>}
       <h2 className="heading-secondary">{heading}</h2>
     </div>

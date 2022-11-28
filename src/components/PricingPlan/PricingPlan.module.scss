@@ -63,3 +63,9 @@
   font-size: 3.6rem;
   color: #eb984e;
 }
+
+@media only screen and (max-width: 59em) {
+  .pricing-plan {
+    width: 100%;
+  }
+}

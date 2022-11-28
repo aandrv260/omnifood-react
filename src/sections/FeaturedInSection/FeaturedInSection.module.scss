@@ -23,3 +23,53 @@
   filter: brightness(0);
   opacity: 50%;
 }
+
+@media only screen and (max-width: 75em) {
+  .featured-logo {
+    height: 3rem;
+  }
+}
+
+@media only screen and (max-width: 59em) {
+  .featured-logo {
+    font-size: 2.4rem;
+  }
+
+  .companies-featured {
+    gap: 2.4rem;
+  }
+
+  .featured-logo {
+    height: 2.4rem;
+  }
+}
+
+@media only screen and (max-width: 44.6em) {
+  .featured-logo {
+    height: 2.4rem;
+  }
+}
+
+@media only screen and (max-width: 37.5em) {
+  .featured-logo {
+    height: 1.8rem;
+  }
+}
+
+@media only screen and (max-width: 31.87em) {
+  .featured-logo {
+    height: 1.6rem;
+  }
+}
+
+@media only screen and (max-width: 25.625em) {
+  .featured-logo {
+    height: 1.4rem;
+  }
+}
+
+@media only screen and (max-width: 22.875em) {
+  .featured-logo {
+    height: 1rem;
+  }
+}

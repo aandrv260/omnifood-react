@@ -8,3 +8,14 @@
 .testimonial-col {
   padding: 9.6rem;
 }
+
+@media only screen and (max-width: 75em) {
+  .section-testimonials {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonial-col {
+    align-self: start;
+    padding: 6.4rem 4.8rem;
+  }
+}
