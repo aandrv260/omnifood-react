@@ -101,6 +101,15 @@
     grid-template-columns: 1fr;
   }
 
+  .form-box {
+    --padding-side: 3.2rem;
+
+    padding: {
+      left: var(--padding-side);
+      right: var(--padding-side);
+    }
+  }
+
   .img-box {
     height: 35rem;
     grid-row: 1;

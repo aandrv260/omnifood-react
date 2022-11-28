@@ -60,6 +60,12 @@
   }
 }
 
+@media only screen and (max-width: 38.75em) {
+  .step-img {
+    width: 45%;
+  }
+}
+
 @media only screen and (max-width: 31.87em) {
   .img-col {
     &:nth-child(2) {
@@ -71,7 +77,17 @@
     }
   }
 
+  .step-img {
+    width: 35%;
+  }
+
   .step-num {
     font-size: 6.2rem;
+  }
+}
+
+@media only screen and (max-width: 26.875em) {
+  .step-img {
+    width: 45%;
   }
 }

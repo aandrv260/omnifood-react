@@ -58,7 +58,7 @@ const featuresData: FeaturesData[] = [
 
 const PricingSection = () => {
   return (
-    <section className={styles['section-pricing']}>
+    <section className={styles['section-pricing']} id="section-pricing">
       <SectionHeading heading="Eating well without breaking the bank" subheading="Pricing" />
 
       <Container className="grid grid--2-cols">

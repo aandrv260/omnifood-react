@@ -29,5 +29,16 @@
 @media only screen and (max-width: 31.87em) {
   .addit-text {
     font-size: 1.4rem;
+    width: 80%;
+    margin: {
+      left: auto;
+      right: auto;
+    }
+  }
+}
+
+@media only screen and (max-width: 25em) {
+  .section-pricing {
+    padding: 8rem 0;
   }
 }

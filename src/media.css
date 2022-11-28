@@ -21,7 +21,7 @@
     font-size: 3.2rem;
   }
 
-  .heading-container {
+  footer .heading-container {
     padding-right: 0;
   }
 
@@ -100,7 +100,7 @@
 }
 
 @media only screen and (max-width: 25em) {
-  .heading-container {
+  footer .heading-container {
     padding-right: 0;
   }
 }

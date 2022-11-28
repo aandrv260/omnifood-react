@@ -12,7 +12,7 @@ const Header = () => {
   return (
     <header className={`${styles.header} ${headerVisibilityClassName}`}>
       <nav className={styles.nav}>
-        <a href="#">
+        <a href="/">
           <img className={styles.logo} src={logo} alt="Logo" />
         </a>
 
